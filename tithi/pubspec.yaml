@@ -1,0 +1,48 @@
+name: tithi
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.2.0+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.5
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: "assets/ic_launcher.png"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-SemiBold.ttf
+
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-SemiBold.ttf
+
+    - family: Varela Round
+      fonts:
+        - asset: fonts/VarelaRound-Regular.ttf
+
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
